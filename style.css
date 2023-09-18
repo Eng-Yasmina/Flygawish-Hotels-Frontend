@@ -351,3 +351,27 @@ font-weight: 700;
     border-radius: 16px;
     background: white;
 }                     
+/*=============================================================================================================*/
+                                   /*MEDIA QUERIES (PHONES)*/
+                                   /*======================*/
+                                   @media screen and (max-width: 600px) {
+                                    .query__container{
+                                        width: var(--container-width-sm);
+                                        grid-template-columns: 1fr;
+                                    }
+                                    .query__img1 {
+                                        border-radius: 16px;
+                                        height: 350px;
+                                        width: 320px;
+                                        margin: 10px;  
+                                    } 
+                                    .query{
+                                        margin: 10px;
+                                    } 
+                                    .query__img{
+                                        height: 100px;
+                                        width: 100px;
+                                        margin: 5px;
+                                    
+                                    }  
+                                }
