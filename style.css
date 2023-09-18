@@ -297,3 +297,57 @@ font-weight: 700;
                                         gap: 2rem;
                                     }
                                 }
+
+
+/* ================================ PAGE 3 : QUERY ===================================== */
+.querysec {
+    background: url('assets/Mask-group-home-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 80px 0;
+}
+.query__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+    gap: 1rem;
+} 
+.query__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.query__img{
+    border-radius: 16px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+
+}    
+.query{
+    border-style: solid;
+    border-width: 9px 0px 0px 0px;
+    border-color: var(--color-secondary);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    transition: var(--transition);
+    padding: 20px;
+    border-radius: 16px;
+    background-color: var(--color-primary);
+} 
+.query__img1 {
+    border-radius: 16px;
+    height: 300px;
+    width: 650px;
+    margin: 20px;  
+}  
+.query2{
+    border-style: solid;
+    border-width: 9px 0px 0px 0px;
+    border-color: var(--color-primary);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    transition: var(--transition);
+    padding: 20px;
+    border-radius: 16px;
+    background: white;
+}                     
