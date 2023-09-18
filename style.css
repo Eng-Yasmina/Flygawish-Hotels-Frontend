@@ -25,7 +25,6 @@
 
 body{
     font-family: 'Cairo', sans-serif;
-
 }
 
 .container{
@@ -33,7 +32,7 @@ body{
     margin: 0 auto;
 }
 
-img{
+section img{
     width: 100%;
     display: block;
     object-fit: cover;
@@ -43,8 +42,7 @@ img{
 h1{font-size: 2.4rem; font-weight: 400;}
 h2{font-size: 2.2rem; font-weight: 400;
     text-align: center; margin-bottom: 4rem;}
-h3{font-size: 2rem; font-weight: 400;}
-h4{font-size: 2rem; font-weight: 350;}
+h3{font-size: 1rem; font-weight: 400;}
 h5{font-size: 1.4rem; font-weight: 500;}
 h1,h2,h3,h4,h5{line-height: 1.2;}
 
@@ -147,6 +145,34 @@ z-index: 1;
     border-color: var(--color-secondary);
 }
 
+/*================= footer ======================*/
+footer{
+    background: black;
+    margin: 5rem 0 0; 
+    padding: 2rem 0 ; 
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.footer__container > div h4 {
+    color: white;
+    font-weight: 600;
+}
+.logo img{
+    width: 60%;
+}
+
+.footer__1{text-align: center;}
+.footer__2{display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 /*=============================================================================================================*/
                                    /*MEDIA QUERIES(TABLETS)*/
                                    /*======================*/
@@ -190,5 +216,18 @@ z-index: 1;
     .hotel{
         flex: 0 1 70vw;
     } 
-}                                
+}  
+
+.footer__container{
+    grid-template-columns: 1fr;
+    gap:2rem;
+    grid-auto-flow: dense;
+}
+
+.footer__container > div h4 {
+    font-size: 0.6rem;
+}
+.logo img{
+    width: 30%;
+}
 
