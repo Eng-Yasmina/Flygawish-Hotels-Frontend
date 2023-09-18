@@ -216,8 +216,8 @@ footer{
     .hotel{
         flex: 0 1 70vw;
     } 
-}  
-
+  
+/*================= footer ======================*/
 .footer__container{
     grid-template-columns: 1fr;
     gap:2rem;
@@ -229,5 +229,6 @@ footer{
 }
 .logo img{
     width: 30%;
+}
 }
 
